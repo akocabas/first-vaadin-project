@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  todos:
+    container_name: todo
+    build: .
+    image: todo:latest
+    ports:
+      - "8090:8080"
+#  redis:
+#    image: "redis:alpine"
